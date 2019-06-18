@@ -1,0 +1,48 @@
+body {
+    background: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200vh;
+}
+
+.outer {
+    height: 80%;
+    width: 80%;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 80%;
+    width: 80%;
+    background: fuchsia;
+    position: relative;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: peachpuff;
+    border-radius: 50%;
+    position: fixed;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0vw;
+}
+
+.left {
+    left: 0vh;
+}
+
+.right{
+    right: 0px;
+}
